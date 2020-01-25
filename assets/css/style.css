@@ -314,6 +314,7 @@ body {
     font-weight: 600; }
 .rit-cover .rit-titl {
   padding: 10px;
+  padding-left: 0px;
   border-bottom: 2px solid #CCC;
   font-size: 1.1rem; }
   .rit-cover .rit-titl i {
