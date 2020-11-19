@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: myTextFont;
-  src: url(../fonts/SF-Pro-Text-Regular.otf);
+  src: url(../fonts/SF-Pro-Text-Light.otf);
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 
 body {
   font-family: myTextFont, myKhmerFont;
-  background-color: #f2f2f2;
+  background-color: #ece9e9;
 }
 
 h1,
@@ -75,12 +75,23 @@ h6 {
 
 .school-logo {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 479px) {
   .school-logo {
-    width: 50%;
-    margin-bottom: 20px;
+    width: 30%;
+    margin-bottom: 30px;
     display: inline-block;
   }
+}
+
+.new-hover {
+  color: rgb(255, 255, 255);
+}
+
+.new-hover:hover {
+  background-color: white;
+  color: #333333;
+  border-radius: 10px;
 }
