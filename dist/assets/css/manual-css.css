@@ -13,13 +13,15 @@
   src: url(../fonts/Suwannaphum-Regular.ttf);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .navbar-light .navbar-toggler-icon {
   height: 20px;
   width: 20px;
 }
 
 body {
-  font-family: myTextFont, myKhmerFont;
+  font-family: roboto, myKhmerFont;
   background-color: #ece9e9;
 }
 
@@ -29,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: myDisplayFont, myKhmerFont;
+  font-family: roboto, myKhmerFont;
 }
 
 .my-box {
@@ -39,19 +41,37 @@ h6 {
 }
 
 .bg-gradient {
-  background: rgb(91, 0, 255);
+  /* background: rgb(91, 0, 255);
   background: linear-gradient(
     162deg,
     rgba(91, 0, 255, 1) 0%,
     rgba(250, 0, 213, 1) 51%,
     rgba(212, 14, 33, 1) 100%
-  );
+  ); */
+  background-color: #dc4f01;
   color: white;
 }
 
 .bg-white {
   background-color: white;
   color: #333333;
+}
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50%;
+  position: relative; /* If you want text inside of it */
+}
+
+.cover-education {
+  background-image: url(../images/education.jpg);
+}
+.cover-experience {
+  background-image: url(../images/experience.jpg);
+}
+.cover-resume {
+  background-image: url(../images/resume.jpg);
 }
 
 .align-item-center {
