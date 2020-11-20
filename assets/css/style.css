@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@400;500;700&family=Suwannaphum&display=swap");
+body {
+  font-family: Roboto, Suwannaphum, sans-serif;
+  background-color: #f2f2f2; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, koulen, sans-serif; }
+
+.page-heading {
+  font-size: 54px;
+  font-weight: 500;
+  margin: 20px 0px 0px 0px; }
+
+.page-sub-heading {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px 0px 20px 0px; }
+
+.box-heading {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 15px 0px; }
+
+.box-sub-heading {
+  font-size: 17px;
+  font-weight: 400; }
+
+.box-top-heading {
+  font-size: 17px;
+  font-weight: 500;
+  color: #86868b; }
+
+.box-icon {
+  margin: 0px 0px 40px 0px;
+  width: 70px; }
+
+.my-box {
+  border-radius: 15px;
+  padding: 30px;
+  margin: 15px 0px; }
+
+.bg-primary {
+  background-color: #0070c9;
+  color: #ffffff; }
+
+.bg-background {
+  background-color: #f2f2f2;
+  color: #333333; }
+
+.bg-white {
+  background-color: #ffffff;
+  color: #111111; }
+
+.bg-dark {
+  background-color: #111111;
+  color: #ffffff; }
+
+.bg-gradient {
+  background: #833ab4;
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  color: #ffffff; }
+
+.align-item-center {
+  text-align: center; }
+
+.heading-text-1 {
+  margin-bottom: 20px;
+  font-size: 48px; }
+
+.heading-text-2 {
+  margin-bottom: 20px;
+  font-size: 32px; }
+
+.heading-text-3 {
+  margin-bottom: 50px;
+  font-size: 20px; }
+
+.school-logo {
+  width: 100%;
+  margin-bottom: 40px; }
+
+@media (max-width: 479px) {
+  .school-logo {
+    width: 30%;
+    margin-bottom: 30px;
+    display: inline-block; } }
+
+.new-hover {
+  color: white; }
+
+.new-hover:hover {
+  background-color: white;
+  color: #333333;
+  border-radius: 10px; }
+
+.my-nav-bar {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 10px 0px;
+  margin: 0px; }
