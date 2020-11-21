@@ -11,19 +11,24 @@ h5,
 h6 {
   font-family: Roboto, koulen, sans-serif; }
 
+.text-gradient {
+  background: -webkit-linear-gradient(135deg, #f04d01, #5b03cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 .page-heading {
-  font-size: calc(32px + 3vw);
+  font-size: calc(32px + 2vw);
   margin: 20px 0px 20px 0px; }
 
 .page-sub-heading {
   font-weight: 300;
-  font-size: calc(18px + 0.5vw);
-  margin: 0px 0px 20px 0px; }
+  font-size: calc(15px + 0.5vw);
+  margin: 0px 0px 10px 0px; }
 
 .box-heading {
-  font-size: calc(32px + 0.7vw);
+  font-size: calc(30px + 0.5vw);
   font-weight: 500;
-  margin: 15px 0px; }
+  margin: 0px 0px 15px 0px; }
 
 .box-sub-heading {
   font-weight: 400; }
@@ -34,11 +39,12 @@ h6 {
 
 .box-icon {
   margin: 0px 0px 40px 0px;
-  width: 70px; }
+  width: calc(50px + 1vw); }
 
 .my-box {
+  height: 93%;
   border-radius: 15px;
-  padding: 30px;
+  padding: 40px;
   margin: 15px 0px; }
 
 .bg-primary {
@@ -97,3 +103,15 @@ h6 {
   color: #ffffff;
   padding: 10px 0px;
   margin: 0px; }
+
+.read-more {
+  text-decoration: none;
+  color: #0070c9;
+  margin: 0px 0px 15px 0px;
+  padding: 5px 30px;
+  display: inline-block;
+  border-radius: 10px; }
+
+.read-more:hover {
+  color: #ffffff;
+  background-color: #0070c9; }
