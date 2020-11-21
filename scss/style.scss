@@ -16,26 +16,32 @@ h6 {
   font-family: Roboto, koulen, sans-serif;
 }
 
+.text-gradient {
+  background: -webkit-linear-gradient(135deg, rgb(240, 77, 1), rgb(91, 3, 207));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .page-heading {
   // font-size: 54px;
   // font-weight: 500;
   // font-size: 4vw;
-  font-size: calc(32px + 3vw);
+  font-size: calc(32px + 2vw);
   margin: 20px 0px 20px 0px;
 }
 .page-sub-heading {
   // font-size: 24px;
   font-weight: 300;
-  font-size: calc(18px + 0.5vw);
-  margin: 0px 0px 20px 0px;
+  font-size: calc(15px + 0.5vw);
+  margin: 0px 0px 10px 0px;
 }
 
 .box-heading {
   // font-size: 40px;
-  font-size: calc(32px + 0.7vw);
+  font-size: calc(30px + 0.5vw);
   font-weight: 500;
   // line-height: 40px;
-  margin: 15px 0px;
+  margin: 0px 0px 15px 0px;
 }
 .box-sub-heading {
   // font-size: 17px;
@@ -48,11 +54,12 @@ h6 {
 }
 .box-icon {
   margin: 0px 0px 40px 0px;
-  width: 70px;
+  width: calc(50px + 1vw);
 }
 .my-box {
+  height: 93%;
   border-radius: $border-radius;
-  padding: 30px;
+  padding: 40px;
   margin: 15px 0px;
 }
 
@@ -130,4 +137,18 @@ h6 {
   color: $c-white;
   padding: 10px 0px;
   margin: 0px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: $c-primary;
+  margin: 0px 0px 15px 0px;
+  padding: 5px 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.read-more:hover {
+  color: $c-white;
+  background-color: $c-primary;
 }
