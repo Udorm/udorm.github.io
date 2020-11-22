@@ -39,7 +39,7 @@ h6 {
 
 .box-icon {
   margin: 0px 0px 40px 0px;
-  width: calc(50px + 1vw); }
+  height: calc(50px + 1vw); }
 
 .my-box {
   height: 93%;
@@ -113,5 +113,6 @@ h6 {
   border-radius: 10px; }
 
 .read-more:hover {
+  text-decoration: none;
   color: #ffffff;
   background-color: #0070c9; }
