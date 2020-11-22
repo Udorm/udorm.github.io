@@ -62,6 +62,15 @@ h6 {
   padding: 40px;
   margin: 15px 0px;
 }
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  .my-box {
+    height: 93%;
+    border-radius: $border-radius;
+    padding: 10px;
+    margin: 15px 0px;
+  }
+}
 
 .bg-primary {
   background-color: $c-primary;
