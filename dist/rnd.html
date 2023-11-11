@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="image_src" href="http://link.to/image.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Kantumruy:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nokora:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="image_src" href="http://link.to/image.png" />
 
-<style>
-    .center{
-        text-align: center;
-        font-size: 3rem; 
-        font-family: 'Nokora', 'roboto';
-    }    
-    .center-item{
-        display: block;
-        margin: 0 auto;
-    }
-</style>
-</head>
-<body>
-    <img src="https://www.burlingtonprimarycare.co.uk/media/content/images/register.jpg" alt="" srcset="" style="display: none;">
-    <img src="https://media.tenor.com/images/165829f4fa496387535407fc3e3e0e85/tenor.gif" alt="" class="center-item">
-    <div class="center">ចាញ់បោកគេហើយ ហាហា! វាមិនដែលគ្រាន់តែលេងហ្គេមចាំបាច់ចុះឈ្មោះ</div>
-</body>
+		<style>
+			.container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh; /* This will make the div take the full viewport height */
+				text-align: center; /* This will center the text horizontally */
+			}
+			.text {
+                font-size: 2em; /* Adjust this value to your preference */
+                font-family: Kantumruy, serif;
+                font-weight: 900;
+                background: linear-gradient(270deg, red, blue);
+                background-size: 200% 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: gradient 3s ease infinite;
+			}
+            @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+}
+		</style>
+	</head>
+	<body>
+		<!-- write a pharagraph in the center of the page horizontally and vertically -->
+		<div class="container center">
+			<p class="text">សួស្ដីអ្នកទាំងអស់គ្នា Happy Walter Festival
+            </p>
+		</div>
+	</body>
 </html>
